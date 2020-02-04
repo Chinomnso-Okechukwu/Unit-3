@@ -1,0 +1,7 @@
+# this program reads three numbers and prints their sum
+# input the three numbers
+a = int(input())
+b = int(input())
+c = int(input())
+# add numbers and print their sum
+print(a + b + c)
