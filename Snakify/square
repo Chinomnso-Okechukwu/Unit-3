@@ -1,0 +1,7 @@
+# this program prints the square of a number
+# input the number
+num = int(input())
+# calculates the square
+square = (num ** 2)
+prints the square
+print(square)
