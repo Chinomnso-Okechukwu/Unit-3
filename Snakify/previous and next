@@ -1,0 +1,10 @@
+#this program prints the next and previous numbers in a statement format.
+#input the number
+a = int(input())
+#calculate the previous number
+b = int(a - 1)
+#calculate the next number
+c = int(a + 1)
+#show result
+print("The next number for the number {} is {}".format(a, c))
+print("The previous number for the number {} is {}".format(a, b))
