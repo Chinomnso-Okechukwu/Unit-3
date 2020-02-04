@@ -1,0 +1,9 @@
+#this program prints the integer division and remainder of two numbers
+#input the two numbers
+N = int(input())
+X = int(input())
+
+#calculate and print the integer division
+print(X // N)
+#calculate and print the remainder
+print(X % N)
