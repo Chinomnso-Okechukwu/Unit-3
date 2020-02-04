@@ -1,0 +1,4 @@
+x = int(input())
+big = (x // 10)
+last = (big % 10)
+print(last)
