@@ -1,0 +1,10 @@
+Y1 = int(input()) 
+X1 = int(input())
+Y2 = int(input())
+X2 = int(input())
+if Y1 == Y2:
+    print("YES")
+elif X1 == X2:
+    print("YES")
+else:
+    print("NO")
