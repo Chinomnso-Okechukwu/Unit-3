@@ -1,0 +1,7 @@
+N = int(input())
+M = int(input())
+days = (M//N)
+if ((M % N) == 0):
+    print(round(days))
+else:
+    print(round(days + 1))
