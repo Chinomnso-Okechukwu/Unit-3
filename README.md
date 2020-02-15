@@ -13,7 +13,7 @@ The client for this application is Hassan Ali, a lover of perfumes. He has so mu
 
 ### Proposed solution
 I am going to create an application that helps Hassan organize his perfumes in the form of an inventory. On opening the application, there would be a feature that informs him on the recommended perfume to use that particular day. This application will also be only accessible to him.
-I will make use of the Python programming language to develop this application. My justification for using Python is due to its ability to give better results, agility and user experience to the customers. GitHub along with many other portals have positioned Python in top 10 languages for mobile application development. What makes Python easy to understand is its unmistakable, natural and basic syntax that looks like English. Such features make Python the best choice for amateurs.
+I will make use of the Python programming language to develop this application. My justification for using Python is due to its ability to give better results, agility and user experience to the customers. GitHub along with many other portals have positioned Python in top 10 languages for mobile application development. What makes Python easy to understand is its unmistakable, natural and basic syntax that looks like English. Such features make Python the best choice for amateurs.[1]
 
 ### Success Criteria
 1. Application must be secure. No other person should be able to gain unauthorized access.
@@ -26,4 +26,4 @@ I will make use of the Python programming language to develop this application. 
 8. Application should be easy to use.
 
 ### References
-[1] Reference from https://topofstacksoftware.com/2019/01/09/10-best-programming-languages-for-mobile-app-development/ on 15th February 2020.
+[1] Retrieved from https://topofstacksoftware.com/2019/01/09/10-best-programming-languages-for-mobile-app-development/ on 15th February 2020.
