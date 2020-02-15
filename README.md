@@ -24,3 +24,6 @@ I will make use of the Python programming language to develop this application. 
 6. Client should be able to edit a perfume in his inventory.
 7. Application should be visually pleasing.
 8. Application should be easy to use.
+
+### References
+[1] Reference from https://topofstacksoftware.com/2019/01/09/10-best-programming-languages-for-mobile-app-development/ on 15th February 2020.
