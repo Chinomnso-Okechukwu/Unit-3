@@ -15,3 +15,8 @@ My inventory object is Foreign Exchange and my developer is Irvin.
 - I learnt the use of ord().
 - I learnt how to convert letters to lower case.
 - 
+
+### Reflection for February 17
+- We were introduced to object oriented programming.
+- I recalled how to retrieve an element from a dictionary.
+-
