@@ -21,5 +21,7 @@ My inventory object is Foreign Exchange and my developer is Irvin.
 - I recalled how to retrieve an element from a dictionary.
 -
 
-### Reflection for February 18 
+### Reflection for February 19 
 - I learnt how to graph a function.
+- I learnt the use of a random function.
+- I learnt the full meaning of TELOS.
