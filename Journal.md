@@ -20,3 +20,6 @@ My inventory object is Foreign Exchange and my developer is Irvin.
 - We were introduced to object oriented programming.
 - I recalled how to retrieve an element from a dictionary.
 -
+
+### Reflection for February 18 
+- I learnt how to graph a function.
