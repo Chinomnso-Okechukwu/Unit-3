@@ -23,4 +23,18 @@ pyplot.xlabel("x")
 pyplot.ylabel("$y = 14*math.sin(0.5*x)$")
 pyplot.show()
 ```
-### Program to print any other mathematical function
+### Program to print any other mathematical function with a different method
+The function is y= cos(0.5x) and z=cos(0.5x)
+```.py
+step = 0.01
+x = []
+for points in range(2000):
+    x.append(-10+step*(points))
+y = [math.sin(0.5*i) for i in x]
+z = [math.cos(0.5*i) for i in x]
+
+pyplot.plot(y,z)
+pyplot.xlabel("$y = math.sin(0.5*i)$"]
+pyplot.ylabel("$z = math.cos(0.5*i)$"]
+pyplot.show()
+```
