@@ -23,3 +23,4 @@ pyplot.xlabel("x")
 pyplot.ylabel("$y = 14*math.sin(0.5*x)$")
 pyplot.show()
 ```
+### Program to print any other mathematical function
