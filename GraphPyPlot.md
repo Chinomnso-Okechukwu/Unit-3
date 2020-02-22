@@ -65,3 +65,17 @@ pyplot.xlabel("x_axis")
 pyplot.ylabel("am")                         
 pyplot.show() 
 ```
+### Graph of the function f(x) = (x+1)^2 - 1
+With x from -2 to 2 with 1000 points
+```.py
+step = 0.04
+x = []
+for points in range(1000):
+    x.append(-2 + step*points)
+y = [(x+1)**2 - 1 for x in x]
+
+pyplot.plot(x,y)
+pyplot.xlabel('x')
+pyplot.ylabel('f(x) = (x+1)^2 - 1')
+pyplot.show()
+```
