@@ -26,6 +26,8 @@ pyplot.show()
 ### Program to graph another mathematical function with a different method
 The function is y= cos(0.5x) and z=cos(0.5x)
 ```.py
+import math
+import matplotlib.pyplot
 step = 0.01
 x = []
 for points in range(2000):
@@ -40,6 +42,8 @@ pyplot.show()
 ```
 ### Program to graph another function with a different method.
 ```.py
+import math
+import matplotlib.pyplot
 min_x = -10                                 
 max_x = 500                                 
 step = 0.01                                 
@@ -68,6 +72,7 @@ pyplot.show()
 ### Graph of the function f(x) = (x+1)^2 - 1
 With x from -2 to 2 with 1000 points
 ```.py
+import matplotlib.pyplot
 step = 0.04
 x = []
 for points in range(1000):
@@ -77,5 +82,23 @@ y = [(x+1)**2 - 1 for x in x]
 pyplot.plot(x,y)
 pyplot.xlabel('x')
 pyplot.ylabel('f(x) = (x+1)^2 - 1')
+pyplot.show()
+```
+### Graph of g(x) = 0.1*sin(0.1*m(x)), where m(x) = x^2
+With x from 0 to 30 with steps of 0.05.
+m(x) = y & g(x) = z
+```.py
+import math
+import matplotlib.pyplot
+step = 0.05
+x = []
+for points in range(600):
+    x.append(0 + step*points)
+y = [x**2 for x in x]
+z = [0.1*math.sin(0.1*y) for y in y]
+
+pyplot.plot(x,z)
+pyplot.xlabel('x')
+pyplot.ylabel('g(x) = 0.1*sin(0.1*m(x))')
 pyplot.show()
 ```
