@@ -6,10 +6,10 @@
 My inventory object is Foreign Exchange and my developer is Irvin.
 
 ### Reflection for February 11
-- 
+- I received an email from my client stating his need and his solution.
 
 ### Reflection for February 12
-- I spoke with my client and dveloper on how to move forward with our respective projects. 
+- I spoke with my client and developer on how to move forward with our respective projects. 
 
 ### Reflection for February 13
 - I learnt the use of ord().
