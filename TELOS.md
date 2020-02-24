@@ -8,13 +8,13 @@ In order to fully acheive this assessment, I would be assessing using TELOS. TEL
 TELOS is an acronym that stands for Technical, Economic, Legal, Operational, Schedulling.
 
 #### T- Technical- Is the project technically possible?
-
+The project is technically possible.
 #### E- Economic- Can the project be afforded? Will it increase profit?
 The project can be afforded. I already possess a laptop and it was free to download PyCharm and Qtdesigner. However, this application is not profit or money driven so it will not increase profit. 
 #### L- Legal- Is the project legal?
 This project is legal. It does intefere or challenge with any of the rules listed in the Code of Conduct of UWC or with the rules of the Japanese government. The intent of developing this application is also not malicious but to offer aid.
 #### O- Operational- How will the current operations support the change?
-
+The current operations support the change. We have been learning and practising programming for some months.
 #### S- Schedulling- Can the project be done in time?
 This will depend on the time set by my client which we have not discussed yet. When the intended time has been set, then I can say whether or not it can be done in time. In spite of this, I will try and work towards producing the prototype for this application sometime before the deadline. That way, I would be able to get feedback from my client on how to improve.
 
