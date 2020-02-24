@@ -25,3 +25,8 @@ My inventory object is Foreign Exchange and my developer is Irvin.
 - I learnt how to graph a function.
 - I learnt the use of a random function.
 - I learnt the full meaning of TELOS.
+
+### Reflection for February 24
+- I learnt the basis of OOP.
+- I learnt the function of class in OOP.
+
