@@ -102,3 +102,17 @@ pyplot.xlabel('x')
 pyplot.ylabel('g(x) = 0.1*sin(0.1*m(x))')
 pyplot.show()
 ```
+### Graph of f(x) = |3sin(0.3x)|
+```.py
+import math
+step = 0.01
+x = []
+for points in range(5000):
+    x.append(0 + step*points)
+y = [math.fabs(3*math.sin(0.3*x)) for x in x]
+
+pyplot.plot(x, y)
+pyplot.xlabel('x')
+pyplot.ylabel('y = |3sin(0.3x)|')
+pyplot.show()
+```
