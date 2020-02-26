@@ -28,3 +28,11 @@ By printing the statement using dot notation to acess attributes of a class inst
 They are functions defined inside a class and are used to define behaviours of the objects. They can also be used to perform operations with the attributes of our objects.
 
 #### 9. What's the purpose of self?
+Self 
+
+#### 10. Whats's the purpose of the __init__ method?
+The __init__ method is used when creating an instance by attaching the name and age to the object. It is an initializer. 
+
+#### 11. Describe how inheritance helps prevent code duplication.
+
+#### 12. Can child classes override properties of their parents?
