@@ -8,11 +8,21 @@ class Dogs:
     def __init__(self, name, age):
         self.name = name
         self.age = age
-    def get_biggest_number():
+        
+    def get_biggest_number(self):
+        if jimmy.age > mochi.age and jimmy.age > frank.age:
+            print(f'The oldest dog is {jimmy.age})
+        if jimmy.age < mochi.age and mochi.age > frank.age:
+            print(f'The oldest dog is {mochi.age})
+        if jimmy.age < framk.age and mochi.age < frank.age: 
+            print(f'The oldest dog is {frank.age})
+       
         
 jimmy = Dogs("Jimmy", 8)
 mochi = Dogs("Mochi", 3)
 frank = Dogs("Frank", 6)
+
+print(jimmy.get_biggest_number())
 ```
 
 ### 2. Create a Pets class that stores instances of dogs in a List; this claass is completely separate from the Dog class. In other words, the Dog class does not inherit from the Pets class. Then assign three dog instances to an instance of the Pets class. Start with the following code below.
