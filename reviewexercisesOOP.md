@@ -120,4 +120,48 @@ else:
 
 ### 4. Next, add a walk() method to both the Pets and Dog classes so that when you call the method on the Pets class, each dog instance assigned to the Pets class will walk.
 ```.py
+class Dogs:
+    species = 'mammal'
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        self.is_hungry = True
+
+    def description(self):
+        return "{} is {} years old".format(self.name, sound)
+
+    def eat(self):
+        self.is_hungry = False
+
+    def walk(self):
+        return "{} is walking!".format(self.name)
+
+
+class RussellTerrier(Dogs):
+    def run(self, speed):
+        return "{} runs {}".format(self.name, speed)
+
+
+class Bulldog(Dogs):
+    def run(self, speed):
+        return "{} runs {}".format(self.name, speed)
+
+
+class Pets:
+    def __init__(self, listAnimals):
+        self.pets = listAnimals
+
+    def walk(self):
+        for dog in self.pets:
+            print(dog.walk())
+myDogs = [
+    Dogs('Tom', 6),
+    RussellTerrier('Fletcher', 7),
+    Bulldog('Larry', 9)
+]
+
+myPets = Pets(myDogs)
+
+myPets.walk()
 ```
