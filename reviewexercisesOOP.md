@@ -118,6 +118,6 @@ else:
     print("My dogs are not hungry")
 ```
 
-### 4. Next, add a walk() method to both the Pets and Dog classes so that when you call the methid on the Pets class, each dog instance assigned to the Pets class will walk.
+### 4. Next, add a walk() method to both the Pets and Dog classes so that when you call the method on the Pets class, each dog instance assigned to the Pets class will walk.
 ```.py
 ```
