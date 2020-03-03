@@ -73,9 +73,13 @@ class Dogs:
     def __init__(self, name, age):
         self.name = name
         self.age = age
+        self.is_hungry = True
         
     def description(self):
         return "{} is {} years old".format(self.name, sound)
+    
+    def eat(self):
+        self.is_hungry = False
         
 class RussellTerrier(Dogs):
     def run(self, speed):
@@ -84,6 +88,25 @@ class RussellTerrier(Dogs):
 class Bulldog(Dogs):
     def run(self, speed):
         return "{} runs {}".format(self.name, speed)
+class Pets:
+    def __init__(self, listAnimnals):
+        self.pets = listAnimals
+        
+myDogs = [
+    Dogs('Tom', 6)
+    RussellTerrier('Fletcher', 7)
+    Bulldog('Larry', 9)
+]
+
+myPets = Pets(myDogs)
+print('I have {} dogs'.format(len(myPets.pets)))
+for dog in myPets.pets:
+    print(dog.description())
+    dog.eat()
+print('And the are all {}, of course'.format(myPets.pets[0].species))
+
+
+
 ```
 
 ### 4. Next, add a walk() method to both the Pets and Dog classes so that when you call the methid on the Pets class, each dog instance assigned to the Pets class will walk.
