@@ -103,10 +103,19 @@ print('I have {} dogs'.format(len(myPets.pets)))
 for dog in myPets.pets:
     print(dog.description())
     dog.eat()
+    
 print('And the are all {}, of course'.format(myPets.pets[0].species))
 
-
-
+hungry_pets = False
+for dog in myPets.pets:
+    if dog.is_hungry:
+        hungry_pets = True
+        break
+        
+if hungry_pets:
+    print("My dogs are hungry")
+else:
+    print("My dogs are not hungry")
 ```
 
 ### 4. Next, add a walk() method to both the Pets and Dog classes so that when you call the methid on the Pets class, each dog instance assigned to the Pets class will walk.
