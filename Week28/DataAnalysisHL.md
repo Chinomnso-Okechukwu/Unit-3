@@ -1,3 +1,5 @@
+This program gets the inputs(total number of corona cases in the world, number of days and total number of cases in Nigeria) from a .csv file and plots the graph of total world cases by number of days and total Nigeria cases by number of days.
+
 ```.py
 import matplotlib.pyplot as pyplot
 import csv
