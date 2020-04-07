@@ -1,16 +1,22 @@
+This class has two methods: 
+
+getString: to get a string from console input
+printString: to print the string in upper case.
+
+
 ```.py
 class Words:
     def __init__(self):
-        self.string1 = " "
+        self.firststring = " "
 
     def getString(self):
-        self.string1 = input()
+        self.firststring = input()
 
     def printString(self):
-        print(self.string1.upper())
+        print(self.firststring.upper())
 
-string1 = Words()
+firststring = Words()
 
-string1.getString()
-string1.printString()
+firststring.getString()
+firststring.printString()
 ```
