@@ -28,5 +28,40 @@ I will make use of the Python programming language to develop this application. 
 ## Design
 
 ## Development
+
+```.py
+mysecretpass = '2'
+user = 'H'
+
+    def trylogin(self):
+        # 1. get the name
+        # 2. get the password
+        # 3. compare name entered and stored
+        # 4. same with password
+        nameEntered = self.email_in.text()
+        passEntered = self.pssword_in.text()
+        print(nameEntered)
+        print(passEntered)
+
+        self.email_in.setStyleSheet("border: none")
+        self.pssword_in.setStyleSheet("border: none")
+
+        if nameEntered != user and passEntered != mysecretpass:
+            self.email_in.setStyleSheet("border: 2px solid red")
+            self.pssword_in.setStyleSheet("border: 2px solid red")
+            print('1')
+        elif nameEntered != user:
+            self.email_in.setStyleSheet("border: 2px solid red")
+            print('2')
+        elif passEntered != mysecretpass:
+            self.pssword_in.setStyleSheet("border: 2px solid red")
+            print('3')
+        else:
+            self.email_in.setStyleSheet("border: 2px solid green")
+            self.pssword_in.setStyleSheet("border: 2px solid green")
+            print('passwords okay')
+            self.done(0)
+```
+
 ### References
 [1] Retrieved from https://topofstacksoftware.com/2019/01/09/10-best-programming-languages-for-mobile-app-development/ on 15th February 2020.
