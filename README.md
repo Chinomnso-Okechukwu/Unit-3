@@ -65,5 +65,14 @@ user = 'H'
 The snippet of the code shows the steps for logging in. Since the application is to be accessed by only one person, I conversed with my client and had a password and username fixed with him. The program is already inbuilt with a correct password and username. Any person ,including my client, trying to access the app has to input a username and password.
 The if statement is used to compare the values inputed by a person and the inbuilt password and username. The borders of the input boxes are white initially. If one or both of the values are wrong, the border(s) of the wrong input box becomes red. If both are correct, it is green and login is successful. The use of 'if' statements here shows my algorithmic thinking. 
 
+```.py
+perfumes = ['bravespirit.png', 'darkcrude.png', 'icewalk.png', 'libyan.png', 'manuomo.png', 'metallicspirit.png', 'nighthomme.png', 'summerco.png', 'winterco.png']
+p = random.randint(0,len(perfumes))
+        s = "#perfume_img{{background-image:url(IMAGES/{});}}".format(perfumes[p])
+        print(s)
+        self.setStyleSheet(s)
+```
+This code snippet is used to show a recommended perfume anytime the system is run. There is a list containing the images of all the perfumes. The code randomly picks a number from 0 to the number of perfumes we have. Each number picked represents a position of a perfume in the list. When one is picked, it is displayed on the home page. This also improves the visual content of this app. The use of random, list and setStlyeSheet shows my knowledge of Python functions.
+
 ### References
 [1] Retrieved from https://topofstacksoftware.com/2019/01/09/10-best-programming-languages-for-mobile-app-development/ on 15th February 2020.
