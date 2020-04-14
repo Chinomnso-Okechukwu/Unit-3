@@ -23,4 +23,7 @@ pplot.xlabel('Price of gold')
 pplot.ylabel('Number of cases')
 pplot.show()
 ```
+My output values were -0.36470160676823155 & 0.04367384558365209
 
+The first value is the correlation coefficient and another is the p-value.
+The correlation coefficient is a negative value showing that there is no particular relation between two set of values.
