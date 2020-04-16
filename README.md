@@ -29,6 +29,8 @@ I will make use of the Python programming language to develop this application. 
 ![appdesign](appdesign.png)
 This image shows the initial drawing for the pages of the application. The first one is the login page, followed by the main page, the third is the perfume inventory pages and lastly, the actions page.
 
+Inputing the correct username and password directs you to the main page. The main page has three buttons to select. The perfume inventory button directs you to the perfume inventory page, The actions button directs you to the actions page where you can either create or add a new perfume, delete an existing perfume or check in and check out a perfume when used. 
+
 ## Development
 
 ```.py
