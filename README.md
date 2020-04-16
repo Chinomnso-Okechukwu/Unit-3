@@ -27,6 +27,7 @@ I will make use of the Python programming language to develop this application. 
 
 ## Design
 ![appdesign](appdesign.png)
+This image shows the initial drawing for the pages of the application. The first one is the login page, followed by the main page, the third is the perfume inventory pages and lastly, the actions page.
 
 ## Development
 
