@@ -26,6 +26,7 @@ I will make use of the Python programming language to develop this application. 
 8. Application should be easy to use.
 
 ## Design
+![appdesign](appdesign.png)
 
 ## Development
 
