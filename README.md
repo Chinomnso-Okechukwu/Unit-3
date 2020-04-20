@@ -78,5 +78,24 @@ p = random.randint(0,len(perfumes))
 ```
 This code snippet is used to show a recommended perfume anytime the system is run. There is a list containing the images of all the perfumes. The code randomly picks a number from 0 to the number of perfumes we have. Each number picked represents a position of a perfume in the list. When one is picked, it is displayed on the home page. This also improves the visual content of this app. The use of random, list and setStlyeSheet shows my knowledge of Python functions.
 
+```.py
+self.perfumeinventory.clicked.connect(self.openinventory)
+self.actions.clicked.connect(self.openactions)
+self.logout.clicked.connect(self.logOut)
+
+
+    def openinventory(self):
+        var = InventoryWindow(self)
+        var.show()
+
+    def openactions(self):
+        var = PerfumeActions(self)
+        var.show()
+
+    def logOut(self):
+        var = LoginApp(self)
+        var.show()
+```
+
 ### References
 [1] Retrieved from https://topofstacksoftware.com/2019/01/09/10-best-programming-languages-for-mobile-app-development/ on 15th February 2020.
