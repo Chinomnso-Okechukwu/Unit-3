@@ -84,15 +84,15 @@ This code snippet is used to show a recommended perfume anytime the system is ru
     self.logout.clicked.connect(self.logOut)
 
 
-    def openinventory(self):
+ def openinventory(self):
         var = InventoryWindow(self)
         var.show()
 
-    def openactions(self):
+ def openactions(self):
         var = PerfumeActions(self)
         var.show()
 
-    def logOut(self):
+ def logOut(self):
         var = LoginApp(self)
         var.show()
 ```
