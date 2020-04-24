@@ -35,7 +35,7 @@ This image shows the initial drawing for the pages of the application. The first
 Inputing the correct username and password directs you to the main page. The main page has three buttons to select. The perfume inventory button directs you to the perfume inventory page, The actions button directs you to the actions page where you can either create or add a new perfume, delete an existing perfume or check in and check out a perfume when used. 
 
 ### System Diagram
-
+![SystemDiagram](SystemDiagram.png)
 
 ### Test Plan
 
