@@ -26,10 +26,14 @@ I will make use of the Python programming language to develop this application. 
 8. Application should be easy to use.
 
 ## Design
+### Record of Tasks
+
 ![appdesign](appdesign.png)
 This image shows the initial drawing for the pages of the application. The first one is the login page, followed by the main page, the third is the perfume inventory pages and lastly, the actions page.
 
 Inputing the correct username and password directs you to the main page. The main page has three buttons to select. The perfume inventory button directs you to the perfume inventory page, The actions button directs you to the actions page where you can either create or add a new perfume, delete an existing perfume or check in and check out a perfume when used. 
+
+### Test Plan
 
 ## Development
 
@@ -117,6 +121,8 @@ self.checkinout.clicked.connect(self.checkp)
         var.show()
 ```
 This code snippet is the first step to acheiving our goals of being able to create, check in/out and delete perfumes. These lines of code are contained in the class PerfumeActions since that is the window in which the create, check in/out and delete buttons are found. The code connects the buttons to the InventoryWindow where the table inventory is found.
+
+## Evaluation
      
 
 
