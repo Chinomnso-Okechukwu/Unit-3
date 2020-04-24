@@ -98,5 +98,27 @@ This code snippet is used to show a recommended perfume anytime the system is ru
 ```
 This code snippet connects the buttons of the mainpage to the other pages in the app. The first three lines of code are executed when the buttons perfumeinventory,actions and logout are pressed. For example, When perfumeinventory is pressed, it connects to a method(self.openinventory) that gives the app instructions on what to do which is to open up the InventoryWindow.  
 
+```.py
+self.createnew.clicked.connect(self.createp)
+self.pushButton.clicked.connect(self.deletep)
+self.checkinout.clicked.connect(self.checkp)
+
+
+    def createp(self):
+        var = InventoryWindow(self)
+        var.show()
+
+    def deletep(self):
+        var = InventoryWindow(self)
+        var.show()
+
+    def checkp(self):
+        var = InventoryWindow(self)
+        var.show()
+```
+This code snippet is the first step to acheiving our goals of being able to create, edit and delete perfumes. These lines of code are contained in the class PerfumeActions since that is the window in which the create, edit and delete buttons are found. The code connects the buttons to the InventoryWindow where the table inventory is found.
+     
+
+
 ### References
 [1] Retrieved from https://topofstacksoftware.com/2019/01/09/10-best-programming-languages-for-mobile-app-development/ on 15th February 2020.
