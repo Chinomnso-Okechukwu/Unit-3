@@ -116,7 +116,7 @@ self.checkinout.clicked.connect(self.checkp)
         var = InventoryWindow(self)
         var.show()
 ```
-This code snippet is the first step to acheiving our goals of being able to create, edit and delete perfumes. These lines of code are contained in the class PerfumeActions since that is the window in which the create, edit and delete buttons are found. The code connects the buttons to the InventoryWindow where the table inventory is found.
+This code snippet is the first step to acheiving our goals of being able to create, check in/out and delete perfumes. These lines of code are contained in the class PerfumeActions since that is the window in which the create, check in/out and delete buttons are found. The code connects the buttons to the InventoryWindow where the table inventory is found.
      
 
 
