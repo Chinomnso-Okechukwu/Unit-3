@@ -219,7 +219,10 @@ with open('pass.txt', "r") as pt:
 Since my client wants to have sole access to this application, I created a program such that the password and user given to be by my client cannot be known by me.
                                                         
 ## Evaluation
-     
+### Tips for improvement:
+1. Button for adding columns.
+2. More color.
+3. A search button.
 
 
 ### References
