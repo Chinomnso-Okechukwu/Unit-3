@@ -27,6 +27,27 @@ I will make use of the Python programming language to develop this application. 
 
 ## Design
 ### Record of Tasks
+| Task number | Planned action                                                                                             | Expected outcome                                                            | Time       | Target completion |
+|-------------|------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|------------|-------------------|
+| 1           | Planning: Meet with client for the first conversation.                                                     | Obtain the basic client requirements.Sketch basic system diagram.           | 10 minutes | February 14.      |
+| 2           | Planning: Second meeting with client to confirm success criteria.                                          | Rank the client requirements in order of importance.                        | 5 minutes  | February 14.      |
+| 3           | Planning: Undergo a feasibility study to show whether it is possible to create this application.           | Feasibility study undergone; application can be created.                    | 2 days     | February 17.      |
+| 4           | Design: Create a table to record my tasks.                                                                 | Successfully created a record of tasks table.                               | 30 days    | April 27.         |
+| 5           | Design: Draw the first sketch of pages for the application.                                                | Drew the first sketch of pages for the application.                         | 30 minutes | February 26       |
+| 6           | Design: Design the sketch pages on QT Designer                                                             | Designed the sketch pages on QT Designer                                    | 60 minutes | March 6           |
+| 7           | Planning: Meet with client to display designed pages                                                       | Obtain feedback on improvements to the pages.                               | 5 minutes  | March 11.         |
+| 8           | Development: Convert the pages to .py format and code the main page.                                       | Programmed the application.                                                 | 30 days    | April 28.         |
+| 9           | Development: Connect all the pages of my application.                                                      | Connected all pages of application                                          | 2 days     | April 3           |
+| 10          | Development: Third meeting with client to take pictures of perfumes.                                       | Obtained all pictures and information of client's perfumes                  | 15 minutes | April 3.          |
+| 11          | Development: Upload the pictures to the application.                                                       | Write a program to upload the pictures to the application.                  | 2 hours    | April 12.         |
+| 12          | Design: Draw the system diagram for the application.                                                       | Drawn a system diagram of the application.                                  | 2 hours    | April 24.         |
+| 13          | Design: Draw the test plan for the application and test the various parts of the application.              | Designed a test plan for testing the application and test the  application. | 3 days     | April 28.         |
+| 14          | Development: Provide detailed instructions to obtain hashed password and user from my client.              | Obtained hash password and user from client.                                | 2 days     | April 26.         |
+| 15          | Development: Create a successful login.                                                                    | Created a successful login for my client.                                   | 2 days     | April 27.         |
+| 16          | Design: Draw the required flowcharts.                                                                      | Drawn the flowcharts.                                                       | 2 days     | April 28.         |
+| 17          | Evaluation: Assess the usability and functionality of the app based on the test plan and success criteria. | Application has been fully assessed using test plan.                        | 3 days     | April 28.         |
+| 18          | Evaluation: Document tips for improvement.                                                                 | Tips for improvement have been given and documented.                        | 3 days     | April 28.         |
+| 19          | Evaluation: Record video to show programs functionality.                                                   | Video is recorded successfully.                                             | 2 days     | April 28.         |
 
 ### Design of Pages
 ![appdesign](appdesign.png)
