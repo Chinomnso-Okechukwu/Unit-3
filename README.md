@@ -147,6 +147,41 @@ self.checkinout.clicked.connect(self.checkp)
 ```
 This code snippet is the first step to acheiving our goals of being able to create, check in/out and delete perfumes. These lines of code are contained in the class PerfumeActions since that is the window in which the create, check in/out and delete buttons are found. The code connects the buttons to the InventoryWindow where the table inventory is found.
 
+```.py
+self.tableinventory.cellChanged.connect(self.changeDB)  
+self.savechanges.clicked.connect(self.save)             
+self.revertchanges.clicked.connect(self.cancel)
+
+ def changeDB(self):                                                                  
+     item = self.tableinventory.currentItem()                                         
+     row = self.tableinventory.currentRow()                                           
+     column = self.tableinventory.currentColumn()                                     
+     self.tableinventory.item(row, column).setBackground(QtGui.QColor(100, 100, 150)) 
+     print(item.text())                                                               
+     self.savechanges.setDisabled(False)                                              
+     self.revertchanges.setDisabled(False)                                            
+                                                                                      
+ def save(self):                                                                      
+     with open('data.csv', 'w', newline='') as dt:                                    
+         writer=csv.writer(dt)                                                        
+         row_max = self.tableinventory.rowCount()                                     
+         col_max = self.tableinventory.columnCount()                                  
+                                                                                      
+         for row in range(row_max):                                                   
+             line = []                                                                
+             for col in range(col_max):                                               
+                 data=self.tableinventory.item(row, col)                              
+                 if data is not None:                                                 
+                     line.append(data.text())                                         
+             writer.writerow(line)                                                    
+     print("Save to data.csv")                                                        
+                                                                                      
+ def cancel(self):                                                                    
+     self.load_data()                                                                 
+     print("Reload table")
+```
+This snippet of code aims at acheiving the success criteria of being able to create, delete, edit and check in or out a perfume.
+                                                        
 ## Evaluation
      
 
