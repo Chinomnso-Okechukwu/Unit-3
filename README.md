@@ -181,6 +181,42 @@ self.revertchanges.clicked.connect(self.cancel)
      print("Reload table")
 ```
 This snippet of code aims at acheiving the success criteria of being able to create, delete, edit and check in or out a perfume.
+
+```.py
+import hashlib, binascii, os
+
+def hash_password(password):
+    salt = hashlib.sha256(os.urandom(60)).hexdigest().encode('ascii')
+    pwdhash = hashlib.pbkdf2_hmac('sha512', password.encode('utf-8'),
+                                  salt, 100000)
+    pwdhash = binascii.hexlify(pwdhash)
+    return (salt + pwdhash).decode('ascii')
+
+def verify_password(stored_password, passEntered):
+    salt = stored_password[:64]
+    stored_password = stored_password[64:-1]
+    pwdhash = hashlib.pbkdf2_hmac('sha512',
+                                  passEntered.encode('utf-8'),
+                                  salt.encode('ascii'),
+                                  100000)
+    pwdhash = binascii.hexlify(pwdhash).decode('ascii')
+    return pwdhash == stored_password
+
+
+password = input("Hello Mr. Hasan, input your username & password together(no spaces in between them): ")
+hash = hash_password(password)
+print(hash)
+print("Mr Hasan, send this password to the programmer: {}".format(hash))
+
+nameEntered = self.email_in.text()                       
+passEntered = self.pssword_in.text()                     
+passE = nameEntered + passEntered                        
+with open('pass.txt', "r") as pt:                        
+    for stored_password in pt:                           
+        if myLib.verify_password(stored_password, passE):
+            self.done(0)
+```
+Since my client wants to have sole access to this application, I created a program such that the password and user given to be by my client cannot be known by me.
                                                         
 ## Evaluation
      
