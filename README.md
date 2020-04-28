@@ -25,6 +25,9 @@ I will make use of the Python programming language to develop this application. 
 7. Application should be visually pleasing.
 8. Application should be easy to use.
 
+### TELOS feasibility study
+
+
 ## Design
 ### Record of Tasks
 | Task number | Planned action                                                                                             | Expected outcome                                                            | Time       | Target completion |
