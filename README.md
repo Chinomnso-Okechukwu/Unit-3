@@ -26,7 +26,8 @@ I will make use of the Python programming language to develop this application. 
 8. Application should be easy to use.
 
 ### TELOS feasibility study
-See file (TELOS.md)
+See file below:
+![TELOS](TELOS.md)
 
 ## Design
 ### Record of Tasks
