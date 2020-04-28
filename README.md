@@ -244,9 +244,11 @@ Since my client wants to have sole access to this application, I created a progr
 | 7           | Client should be able to check in and out an existing perfume when used.                     | Run the app, navigate to the actions page, click check in/out button and add check in/out a perfume when used. Click the save button.     | The client should be able to get to the table when any of the action buttons are clicked and can edit information about a perfume.                                            | YES               |
 
 ### Tips for improvement:
-1. Button for adding columns.
-2. More color.
-3. A search button.
+#### 1. Button for adding more rows:
+My table inventory is limited to a certain number of rows. If the number of perfumes my client owns exceeds the number of rows avaibale for data entry, then the app will be of less use to him and the app will not also fulfill the success criteria of being able to create new perfumes.
+#### 2. More color:
+One of my clients requirements was to make this application visually pleasing. There are pictures in the app but no color. One of the things I can do to improve this app is to add color.
+#### 3. A search button.
 
 
 ### References
