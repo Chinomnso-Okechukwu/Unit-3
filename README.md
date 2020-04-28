@@ -63,7 +63,7 @@ Inputing the correct username and password directs you to the main page. The mai
 ![SystemDiagram](SystemDiagram.png)
 
 ### Flowchart
-
+![flowdiagram](FLOWCHART1.png)
 
 ### Test Plan
 | Test Number | Description                                                                                  | Input Data/Instructions                                                                                                                   | Expected Results                                                                                                                                                              |
