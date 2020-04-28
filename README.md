@@ -63,7 +63,6 @@ Inputing the correct username and password directs you to the main page. The mai
 ![SystemDiagram](SystemDiagram.png)
 
 ### Test Plan
-```.py
 | Test Number | Description                                                                                  | Input Data/Instructions                                                                                                                   | Expected Results                                                                                                                                                              |
 |-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1           | Ability to login successfully with the in-built passwords.                                   | Specific username & password                                                                                                              | The program should output "logging in". The login page closes and we are directed to the main page.                                                                           |
@@ -73,7 +72,7 @@ Inputing the correct username and password directs you to the main page. The mai
 | 5           | Client should be able to delete an existing new perfume in his inventory table.              | Run the app, navigate to the actions page, click delete button and delete all information for an existing perfume. Click the save button. | The client should be able to get to the table when the  delete button is clicked, and can delete information about an existing perfume.                                       |
 | 6           | Client should be able to edit information  about an existing perfume in his inventory table. | Run the app, navigate to the actions page, click delete button and edit the information for an existing perfume. Click the save button.   | The client should be able to get to the table when the  check in/out button is clicked, and can check in/out a perfume when it is being used and when it is no longer in use. |
 | 7           | Client should be able to check in and out an existing perfume when used.                     | Run the app, navigate to the actions page, click check in/out button and add check in/out a perfume when used. Click the save button.     | The client should be able to get to the table when any of the action buttons are clicked and can edit information about a perfume.  |
-```
+
 
 ## Development
 
