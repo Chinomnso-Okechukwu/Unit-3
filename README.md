@@ -159,7 +159,7 @@ self.checkinout.clicked.connect(self.checkp)
         var = InventoryWindow(self)
         var.show()
 ```
-This code snippet is the first step to acheiving our goals of being able to create, check in/out and delete perfumes. These lines of code are contained in the class PerfumeActions since that is the window in which the create, check in/out and delete buttons are found. The code connects the buttons to the InventoryWindow where the table inventory is found.
+This code snippet is the first step to acheiving our goals of being able to create, check in/out and delete perfumes. These lines of code are contained in the class PerfumeActions since that is the window in which the create, check in/out and delete buttons are found. The code connects all these buttons to the InventoryWindow where the table inventory is found.
 
 ```.py
 self.tableinventory.cellChanged.connect(self.changeDB)  
@@ -194,7 +194,7 @@ self.revertchanges.clicked.connect(self.cancel)
      self.load_data()                                                                 
      print("Reload table")
 ```
-This snippet of code aims at acheiving the success criteria of being able to create, delete, edit and check in or out a perfume.
+This snippet of code aims at acheiving the success criteria of being able to create, delete, edit and check in or out a perfume. All the create, delete and check in buttons all connect to the inventory table where the desired action can be performed. 
 
 ```.py
 import hashlib, binascii, os
@@ -230,7 +230,7 @@ with open('pass.txt', "r") as pt:
         if myLib.verify_password(stored_password, passE):
             self.done(0)
 ```
-Since my client wants to have sole access to this application, I created a program such that the password and user given to be by my client cannot be known by me.
+Since my client wants to have sole access to this application, I created a program such that the password and user given to be by my client cannot be known by me. The first part of the application hashes the password and username given by my client. The second part shows the instructions provided to my client on how to get the password. The third part of the application compares the password and the user entered to the ones which are stored in the text file.
                                                         
 ## Evaluation
 | Test Number | Description                                                                                  | Input Data/Instructions                                                                                                                   | Expected Results                                                                                                                                                              | Results Acheived? |
@@ -247,9 +247,9 @@ Since my client wants to have sole access to this application, I created a progr
 #### 1. Button for adding more rows:
 My table inventory is limited to a certain number of rows. If the number of perfumes my client owns exceeds the number of rows avaibale for data entry, then the app will be of less use to him and the app will not also fulfill the success criteria of being able to create new perfumes.
 #### 2. More color:
-One of my clients requirements was to make this application visually pleasing. There are pictures in the app but no color. One of the things I can do to improve this app is to add color.
-#### 3. A search button.
-
+One of my clients requirements was to make this application visually pleasing. There are pictures in the app but no color. One of the things I can do to improve this app's aesthethic is to add color.
+#### 3. A search button:
+One improvement that can be added to this app is a search button. This will help my client locate one of his perfumes in his inventory iincase he wants to check it out, delete it or edit information about it. 
 
 ### References
 [1] Retrieved from https://topofstacksoftware.com/2019/01/09/10-best-programming-languages-for-mobile-app-development/ on 15th February 2020.
