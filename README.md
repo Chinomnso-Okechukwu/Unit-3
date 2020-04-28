@@ -61,9 +61,11 @@ Inputing the correct username and password directs you to the main page. The mai
 
 ### System Diagram
 ![systemdiagram](SYSTEMDIAGRAM1.png)
+This image is the system diagram for this application. It shows the main components of the perfume inventory app clearly indicates the input, output and main actions.
 
 ### Flowchart
 ![flowdiagram](FLOWCHART1.png)
+This is the flowchart for the initial algorithm for the login system which is shown and explained in the Development section.
 
 ### Test Plan
 | Test Number | Description                                                                                  | Input Data/Instructions                                                                                                                   | Expected Results                                                                                                                                                              |
