@@ -68,6 +68,7 @@ This image is the system diagram for this application. It shows the main compone
 This is the flowchart for the initial algorithm for the login system which is shown and explained in the Development section.
 
 ![flow](flow.png)
+This is the flowchart of the algorithm for saving and reverting changes made in a QTableWidget. The algorithm is shown and explained in the Development section.
 
 ### Test Plan
 | Test Number | Description                                                                                  | Input Data/Instructions                                                                                                                   | Expected Results                                                                                                                                                              |
