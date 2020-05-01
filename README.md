@@ -260,6 +260,11 @@ One of my clients requirements was to make this application visually pleasing. T
 One improvement that can be added to this app is a search button. This will help my client locate one of his perfumes in his inventory iincase he wants to check it out, delete it or edit information about it. 
 #### 4. A way to add the pictures of the newly added perfumes:
 My client is able to add new perfumes in his inventory but cannot directly add the corresponding perfumes to the application. Having all the pictures of perfumes are important because it helps recommend the perfume my client will use that day and also because it is part of the success criteria. If there's no way for my client to do that, then I will have to update this application with the new pictures.
+#### 5. A change in background of the password and user boxes password is input:
+This can help my client know when he mistakenly inputted a wrong user or password or both. For example, if the user is wrong, the user box turns red.
+
+### Working Video
+Attached here is the link of the video showing my working application.
 
 ### References
 [1] Retrieved from https://topofstacksoftware.com/2019/01/09/10-best-programming-languages-for-mobile-app-development/ on 15th February 2020.
