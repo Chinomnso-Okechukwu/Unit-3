@@ -67,6 +67,8 @@ This image is the system diagram for this application. It shows the main compone
 ![flowdiagram](FLOWCHART1.png)
 This is the flowchart for the initial algorithm for the login system which is shown and explained in the Development section.
 
+![flow](flow.png)
+
 ### Test Plan
 | Test Number | Description                                                                                  | Input Data/Instructions                                                                                                                   | Expected Results                                                                                                                                                              |
 |-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
