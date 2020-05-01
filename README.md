@@ -257,7 +257,7 @@ Since my client wants to have sole access to this application, I created a progr
 | 6           | Client should be able to edit information  about an existing perfume in his inventory table. | Run the app, navigate to the actions page, click delete button and edit the information for an existing perfume. Click the save button.   | The client should be able to get to the table when the  check in/out button is clicked, and can check in/out a perfume when it is being used and when it is no longer in use. | YES               |
 | 7           | Client should be able to check in and out an existing perfume when used.                     | Run the app, navigate to the actions page, click check in/out button and add check in/out a perfume when used. Click the save button.     | The client should be able to get to the table when any of the action buttons are clicked and can edit information about a perfume.                                            | YES               |
 
-From the above evaluated test plan, we can see that I was able to achieve my success criteria. Hence, we can infer that developing this application has been a success.
+From the above evaluated test plan, we can see that I was able to achieve all of my success criteria and testing. Hence, we can infer that developing this application has been a success.
 
 ### Tips for improvement:
 #### 1. Button for adding more rows:
