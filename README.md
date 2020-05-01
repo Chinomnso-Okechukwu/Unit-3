@@ -208,7 +208,7 @@ self.revertchanges.clicked.connect(self.cancel)
      self.load_data()                                                                 
      print("Reload table")
 ```
-This snippet of code aims at acheiving the success criteria of being able to create, delete, edit and check in or out a perfume. All the create, delete and check in buttons all connect to the inventory table where the desired action can be performed. 
+This snippet of code aims at acheiving the success criteria of being able to successfully create, delete, edit and check in or out a perfume. The first line of code means that when we click on a cell in the table, we are directed to the changeDB function which sets the cell to have a different color. It also activates the save and revert buttons. The second line of code means that when we click the save changes button, we are directed to the save method. The save method helps us save changes made in the table. The third line of code means that when we click the revert changes button, we are directed to the cancel method. The cancel method discards the changes we made in the table and just loads the previous table.
 
 ```.py
 import hashlib, binascii, os
@@ -244,7 +244,7 @@ with open('pass.txt', "r") as pt:
         if myLib.verify_password(stored_password, passE):
             self.done(0)
 ```
-Since my client wants to have sole access to this application, I created a program such that the password and user given to be by my client cannot be known by me. The first part of the application hashes the password and username given by my client. The second part shows the instructions provided to my client on how to get the password. The third part of the application compares the password and the user entered to the ones which are stored in the text file.
+Since my client wants to have sole access to this application, I created a program such that the password and user given to be by my client cannot be known by me. The first part of the application hashes the password and username given by my client. The second part shows the instructions provided to my client on how to get the password.I stored this hashed password and user in a text file(pass.txt). The third part of the application hashes the inputted password and user and  compares it to the one which is stored in the text file.
                                                         
 ## Evaluation
 | Test Number | Description                                                                                  | Input Data/Instructions                                                                                                                   | Expected Results                                                                                                                                                              | Results Acheived? |
@@ -256,6 +256,8 @@ Since my client wants to have sole access to this application, I created a progr
 | 5           | Client should be able to delete an existing new perfume in his inventory table.              | Run the app, navigate to the actions page, click delete button and delete all information for an existing perfume. Click the save button. | The client should be able to get to the table when the  delete button is clicked, and can delete information about an existing perfume.                                       | YES               |
 | 6           | Client should be able to edit information  about an existing perfume in his inventory table. | Run the app, navigate to the actions page, click delete button and edit the information for an existing perfume. Click the save button.   | The client should be able to get to the table when the  check in/out button is clicked, and can check in/out a perfume when it is being used and when it is no longer in use. | YES               |
 | 7           | Client should be able to check in and out an existing perfume when used.                     | Run the app, navigate to the actions page, click check in/out button and add check in/out a perfume when used. Click the save button.     | The client should be able to get to the table when any of the action buttons are clicked and can edit information about a perfume.                                            | YES               |
+
+From the above evaluated test plan, we can see that I was able to achieve my success criteria. Hence, we can infer that developing this application has been a success.
 
 ### Tips for improvement:
 #### 1. Button for adding more rows:
